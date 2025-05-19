@@ -1,5 +1,5 @@
 Spectral Clustering for Directed Graphs via Likelihood Estimation on Stochastic Block Models
-my_project
+LE_SC project
 │
 ├── US migration/
 │   └── US_county_cluster.ipynb
