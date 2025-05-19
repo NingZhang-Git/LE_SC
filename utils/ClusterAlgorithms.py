@@ -334,7 +334,7 @@ class ClusterBy():
 
 def k_LE_SC(Ad, k, max_iter=10, init='Herm', t=0.05):
       """
-      Iteratively applies the MLE_SC algorithm to obtain k clusters.
+      Iteratively applies the LE_SC algorithm to obtain k clusters.
       """
       y_hat = np.zeros(Ad.shape[0], dtype=int)
       current_Ad = Ad
