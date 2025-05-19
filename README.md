@@ -6,18 +6,6 @@ This repository contains experiments and analysis for clustering **directed grap
 - **Connectome** — neuronal connectivity data.
 - **DSBM** — Directed Stochastic Block Model, a synthetic benchmark for evaluating clustering algorithms.
 
-## Structure
-
-├── DSBM/ # Directed Stochastic Block Model experiments
-├── US migration/ # US migration graph analysis
-├── Connectome/ # Neuron connectome analysis
-├── utils/ # Utility scripts (graph generation, clustering, visualization)
-│ ├── ClusterAlgorithms.py
-│ ├── RandomGraph.py
-│ ├── USA_Plot.py
-│ └── pycache/
-├── README.md # This file
-
 
 
 ## Contents
@@ -27,7 +15,7 @@ This repository contains experiments and analysis for clustering **directed grap
 Contains reusable tools for:
 
 - Generating synthetic directed graphs (`RandomGraph.py`)
-- Implementing and applying clustering algorithms (`ClusterAlgorithms.py`)
+- Implementing and applying spectral clustering algorithms (`ClusterAlgorithms.py`)
 - Visualizing US migration graph data (`USA_Plot.py`)
 
 These utility modules are used across all three datasets for consistency.
