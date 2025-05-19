@@ -27,7 +27,7 @@ This repository contains experiments and analysis for clustering **directed grap
 Contains reusable tools for:
 
 - Generating synthetic directed graphs (`RandomGraph.py`)
-- Implementing and applying clustering algorithms (`ClusterAlgorithms.py`)
+- Implementing and applying spectral clustering algorithms (`ClusterAlgorithms.py`)
 - Visualizing US migration graph data (`USA_Plot.py`)
 
 These utility modules are used across all three datasets for consistency.
