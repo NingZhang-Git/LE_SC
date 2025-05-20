@@ -22,15 +22,15 @@ These utility modules are used across all three datasets for consistency.
 
 ### 📁 `DSBM/`
 
-Includes experiments with the Directed Stochastic Block Model, useful for validating the performance of clustering algorithms under controlled conditions.
+Clustering directed graphs generated from the Directed Stochastic Block Model.
 
 ### 📁 `Connectome/`
 
-Processes and clusters directed graphs derived from real-world neuronal connectome data.
+Clusters directed graphs representing the Larval Drosophila mushroom body connectome.
 
 ### 📁 `US migration/`
 
-Analyzes directed migration flows between US states and evaluates the structure using graph clustering methods.
+Analyzes directed migration flows between US counties from 1995 to 2000.
 
 ## Requirements
 
