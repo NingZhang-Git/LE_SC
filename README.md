@@ -1,4 +1,4 @@
-# Directed Graph Clustering Experiments
+# Spectral Methods for Directed Graph Clustering
 
 This repository contains experiments and analysis for clustering **directed graphs** using three datasets:
 
