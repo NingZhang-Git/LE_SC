@@ -354,5 +354,4 @@ def k_LE_SC(Ad, k, max_iter=10, init='Herm', t=0.05):
         # Update current adjacency matrix and indices
         current_Ad = current_Ad[largest_cluster_indices,:][:,largest_cluster_indices]
         current_indices = current_indices[largest_cluster_indices]
-        # y_hat[current_indices] = k -1 # assign the last cluster
       return y_hat
