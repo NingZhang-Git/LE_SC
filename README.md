@@ -27,7 +27,9 @@ This repository contains experiments and analysis for clustering **directed grap
 │   └── USA_Plot.py               # Plotting tools for US maps
 
 ```
+## Key Algorithm
 
+The file `utils/ClusterAlgorithms.py` includes multiple baseline methods for clustering directed graphs. Our proposed method, LE-SC (Likelihood Estimation Spectral Clustering), is an iterative spectral clustering algorithm that refines clusters through a likelihood-based update process to produce final community labels.
 
 ## Requirements
 
