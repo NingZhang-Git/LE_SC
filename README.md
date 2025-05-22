@@ -6,31 +6,28 @@ This repository contains experiments and analysis for clustering **directed grap
 - **Connectome** — neuronal connectivity data.
 - **DSBM** — Directed Stochastic Block Model, a synthetic benchmark for evaluating clustering algorithms.
 
+```
+├── Connectome/                    # Neuron connectivity clustering
+│   ├── adjacency.npz             # Adjacency matrix of neural network
+│   ├── labels.npy                # Ground truth cluster labels
+│   └── Neuron cluster.ipynb      # Notebook for clustering neuron data
+│
+├── DSBM/                         # DSBM clustering experiments
+│   ├── Cluster DSBM_k2.ipynb     # Clustering DSBM with k=2
+│
+├── US migration/                 # US county migration clustering
+│   ├── Coord.csv                 # Coordinates of US counties
+│   ├── MIG.csv                   # Migration data between counties
+│   ├── US_county_cluster.ipynb   # Notebook for clustering US counties
+│   └── USA.txt                   # Supplementary US data
+│
+├── utils/                        # Utility scripts
+│   ├── ClusterAlgorithms.py      # Clustering algorithm implementations
+│   ├── RandomGraph.py            # Random graph generators
+│   └── USA_Plot.py               # Plotting tools for US maps
 
+```
 
-## Contents
-
-### 📁 `utils/`
-
-Contains reusable tools for:
-
-- Generating synthetic directed graphs (`RandomGraph.py`)
-- Implementing and applying spectral clustering algorithms (`ClusterAlgorithms.py`)
-- Visualizing US migration graph data (`USA_Plot.py`)
-
-These utility modules are used across all three datasets for consistency.
-
-### 📁 `DSBM/`
-
-Clustering directed graphs generated from the Directed Stochastic Block Model.
-
-### 📁 `Connectome/`
-
-Clusters directed graphs representing the Larval Drosophila mushroom body connectome.
-
-### 📁 `US migration/`
-
-Analyzes directed migration flows between US counties from 1995 to 2000.
 
 ## Requirements
 
