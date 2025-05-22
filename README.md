@@ -2,7 +2,7 @@
 
 This repository contains experiments and analysis for clustering **directed graphs** using three datasets:
 
-- **US Migration** — internal migration patterns between US states.
+- **US Migration** — migration data between US counties.
 - **Connectome** — neuronal connectivity data.
 - **DSBM** — Directed Stochastic Block Model, a synthetic benchmark for evaluating clustering algorithms.
 
